@@ -19,7 +19,11 @@ public class Main {
 		 grade = in.nextInt();
 		 if(grade<=-1) {
 		 	break;
-		 }total = total + grade;
+		 }if(grade>100) {
+			 System.out.println("Enter new number");
+			 grade = in.nextInt();
+		 }
+		 total = total + grade;
 		  if(grade>max) {
 			 max = grade;
 		  }if(grade<min) {
