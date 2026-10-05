@@ -8,11 +8,11 @@ public class Main {
 		
 		System.out.println("Welcome to GradeBook!!!!");
 		
-		int grade = 1;
-		int total = 0;
-		int max = -1;
-		int min = 101;
-		int i = 0; 
+		double grade = 1;
+		double total = 0;
+		double max = -1;
+		double min = 101;
+		double i = 0; 
 		
 		while(grade > 0) {
 		 System.out.println("Enter your grade:");
@@ -27,9 +27,9 @@ public class Main {
 		    }grade = 1; i++;
 		}
 		
-		int avg = total / i ;
+		double avg = total / i ;
 		
-		System.out.println("Total:"+total);
+		System.out.println("Total Grades Enterd:"+i);
 		System.out.println("Average:"+avg);
 		System.out.println("Highest:"+max);
 		System.out.println("Lowest:"+min);
